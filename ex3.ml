@@ -3,7 +3,7 @@ let sep x =
 
 let mirror x = 
   let x1, x2, x3, x4 = sep x in
-  x4 * 1000 + x3 * 100 + x2 * 10 + x1
+  x4 * 1000 + x3 * 100 + x2 * 10 + x1 ;;
 
 let perf_sq x =
   let n = int_of_float (sqrt (float_of_int x)) in
