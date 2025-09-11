@@ -1,5 +1,5 @@
 let surf a =
-if a < 0 then invalid_arg "inv arg" else
+if a < 0 then invalid_arg "negative surface" else
 let b = a - 5000 in
 let c = b * 1000 + b in
 let d = c / 7 - 7 * (c mod 7) in
