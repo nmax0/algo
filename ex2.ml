@@ -20,4 +20,4 @@ let main x =
 if (float_of_int x /. 1000. > 1.) || (float_of_int x /. 10. < 10.) then invalid_arg "3 digit num is needed" 
 else (myst x, top x) ;;
 
-main 484 ;;
+(* code = 100, 900 *)
