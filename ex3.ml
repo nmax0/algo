@@ -29,4 +29,4 @@ else false
 else false
 else false ;;
 
-crack 2025 ;;
+(* code = 2025 *)
