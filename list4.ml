@@ -1,3 +1,5 @@
+(* 4. Two lists *)
+
 (* ex 4.1 : equality between 2 lists *)
 let rec equality l1 l2 =
   match l1, l2 with
