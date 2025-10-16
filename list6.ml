@@ -1,11 +1,11 @@
 (* Small Exercices *)
 
 (* 6.1 : gcd *)
-(* without prime factors *)
+(* euclidian *)
 let rec gcd a b =
   let r = a mod b in
   if r = 0 then b else gcd b r ;;
-(* with prime factors *)
+(* prime factors *)
 let rec product l1 =
   match l1 with
   | e::l -> e*product l
